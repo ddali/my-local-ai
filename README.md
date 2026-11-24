@@ -172,6 +172,13 @@
 
 ### 安装
 
+也可以直接克隆仓库后进入目录：
+
+```
+git clone https://github.com/ddali/my-local-ai.git
+cd my-local-ai
+```
+
 Windows：
 
 ```

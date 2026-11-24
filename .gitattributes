@@ -1,0 +1,7 @@
+# 文本文件统一按 LF 归一，避免 Windows 克隆后 install.sh 变成 CRLF 在 macOS/Linux 跑不起来
+* text=auto eol=lf
+*.sh text eol=lf
+*.ps1 text eol=lf
+*.md text eol=lf
+*.mdc text eol=lf
+*.json text eol=lf

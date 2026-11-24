@@ -173,6 +173,13 @@ Each item is written in three parts: **what it does**, **how the AI uses it**, *
 
 ### Install
 
+Or clone the repository and cd into it:
+
+```
+git clone https://github.com/ddali/my-local-ai.git
+cd my-local-ai
+```
+
 Windows:
 
 ```
