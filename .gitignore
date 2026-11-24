@@ -1,0 +1,17 @@
+# 打包产物
+*.zip
+
+# 临时 staging / check 目录
+afc-v*-stage/
+afc-v*-check/
+
+# 系统垃圾
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 编辑器与临时文件
+.vscode/
+.idea/
+*.swp
+*.tmp

@@ -1,0 +1,33 @@
+{
+  "name": "my-local-ai",
+  "displayName": "我的本地 AI",
+  "version": "0.36",
+  "defaultCompanion": "",
+  "description": "跨 Agent 的本地 AI：在本机给它搭一套可迁移的本地记录和相处规矩，跨会话、跨 AI 延续；反馈沉淀成可复用的判断，人和 AI 在沟通里一起磨合。",
+  "skillDir": "skill/my-local-ai",
+  "dataRoot": ".my-local-ai",
+  "libraries": [
+    "libraries/agent-library",
+    "libraries/methodology-library"
+  ],
+  "agents": [
+    { "id": "dsh", "detectDir": ".dsh", "skillRoot": [".agents", "skills"], "ruleSource": "AGENTS.md", "ruleTarget": [".agents", "AGENTS.md"] },
+    { "id": "codex", "detectDir": ".codex", "skillRoot": [".agents", "skills"], "ruleSource": "AGENTS.md", "ruleTarget": [".codex", "AGENTS.md"] },
+    { "id": "claude-code", "detectDir": ".claude", "skillRoot": [".claude", "skills"], "ruleSource": "CLAUDE.md", "ruleTarget": [".claude", "CLAUDE.md"] },
+    { "id": "workbuddy", "detectDir": ".workbuddy", "skillRoot": [".workbuddy", "skills"], "ruleSource": "WORKBUDDY.md", "ruleTargetType": "memoryMd" },
+    { "id": "codebuddy", "detectDir": ".codebuddy", "skillRoot": [".codebuddy", "skills"], "ruleSource": "AGENTS.md", "ruleTarget": [".codebuddy", "AGENTS.md"] },
+    { "id": "pi", "detectDir": ".pi", "skillRoot": [".pi", "agent", "skills"], "ruleSource": "AGENTS.md", "ruleTarget": [".pi", "agent", "AGENTS.md"] },
+    { "id": "prime-agent", "detectDir": ".prime", "skillRoot": [".prime", "agent", "skills"], "ruleSource": "AGENTS.md", "ruleTarget": [".prime", "agent", "AGENTS.md"] },
+    { "id": "gemini-antigravity", "detectDir": ".gemini", "skillRoot": [".gemini", "config", "skills"], "ruleSource": "GEMINI.md", "ruleTarget": [".gemini", "GEMINI.md"] },
+    { "id": "cursor-cli", "detectDir": ".cursor", "skillRoot": [".cursor", "skills"], "ruleSource": "cursor.mdc", "ruleTarget": [".cursor", "rules", "my-local-ai.mdc"] },
+    { "id": "opencode", "detectDir": ".opencode", "skillRoot": [".agents", "skills"] },
+    { "id": "qwen-code", "detectDir": ".qwen", "skillRoot": [".qwen", "skills"] },
+    { "id": "kimi-code", "detectDir": ".kimi-code", "skillRoot": [".kimi-code", "skills"] },
+    { "id": "zcode", "detectDir": ".zcode", "skillRoot": [".zcode", "skills"] },
+    { "id": "traecode", "detectDir": ".trae-cn", "skillRoot": [".trae-cn", "skills"] },
+    { "id": "copilot-cli", "detectDir": ".copilot", "skillRoot": [".copilot", "skills"] },
+    { "id": "grok-build", "detectDir": ".grok", "skillRoot": [".grok", "skills"] },
+    { "id": "cline-cli", "detectDir": ".cline", "skillRoot": [".cline", "data", "settings", "skills"] },
+    { "id": "factory-droid", "detectDir": ".factory", "skillRoot": [".factory", "skills"] }
+  ]
+}
